@@ -3,9 +3,6 @@
 import { ImageAnalysisClient }from '@azure-rest/ai-vision-image-analysis';
 import { AzureKeyCredential } from '@azure/core-auth';
 import { createClient } from '@azure-rest/ai-vision-image-analysis';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const endpoint = process.env['VISION_ENDPOINT'] || '<your_endpoint>';
 const key = process.env['VISION_KEY'] || '<your_key>';
