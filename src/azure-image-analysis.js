@@ -27,3 +27,5 @@ async function analizeImage(url) {
       });
     return result.body;
 }
+
+export default analizeImage;
